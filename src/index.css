@@ -1,0 +1,38 @@
+body {
+  background-color: #ecf0f0;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .asideRight,
+  .Aside {
+    position: relative !important;
+  }
+  .Aside li {
+    width: 40% !important;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  .sign {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+ul {
+  padding: 0;
+}
+
+.Aside li {
+  width: 90%;
+}
